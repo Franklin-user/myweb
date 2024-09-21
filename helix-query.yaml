@@ -1,9 +1,10 @@
+version: 1
 indices:
   mysite:
     include:
       - '**'
     exclude:
-      - '/trail/**'
+      - '**/trail/**'
     target: /query-index
     properties:
       author:
